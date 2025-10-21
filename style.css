@@ -4,13 +4,13 @@
   color: #333;
   font-family: "Lato", sans-serif;
 }
-.aaa {
+.intro {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.intro img {
   width: 100%;
 }
 
@@ -19,7 +19,7 @@
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .intro {
     text-align: center;
   }
 }
@@ -146,11 +146,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.editMode input[type="text"] {
+.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+.edit-mode label {
   display: none;
 }
